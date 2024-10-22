@@ -1,9 +1,9 @@
-import React, { useEffect } from 'react';
+import { useEffect } from "react";
 
 const TidioChat = () => {
   useEffect(() => {
     // Create the script element
-    const script = document.createElement('script');
+    const script = document.createElement("script");
     script.src = "//code.tidio.co/l4otkjmkeqnqu0g5wnjg17ibrfhfnxqw.js";
     script.async = true;
 
